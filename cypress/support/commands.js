@@ -5,3 +5,4 @@ Cypress.Commands.add("validateHomeTitle", () => {
     .should("be.visible")
     .and("have.attr", "href", "https://academybugs.com/");
 });
+
